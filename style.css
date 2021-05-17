@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poiret+One&display=swap');
+body{
+    background-image: url("gradient.jpg");
+   
+    font-family: 'Overlock', cursive;
+   
+
+}
+#box1
+{
+   
+    position:absolute;
+    top:8%;
+    bottom:8%;
+    left: 8%;
+    right:8%;
+    padding-left: 50px;
+    padding-right: 50px;
+	max-width:500px;
+	margin: 0 auto;
+    /* background: rgb(101 239 14); */
+    backdrop-filter: blur(50px);
+}
+#container
+{
+    position:absolute;
+    top:5%;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    left:5%;
+    right:5%;
+	background-color: chartreuse;
+   
+    
+}
+.keys{
+    display:flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    display:flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+.red {
+	background: #FF0303;
+}
+
+.blue {
+	background: #0082FF;
+}
+
+.yellow {
+	background: #F9FE00;
+}
+
+.green {
+	background: #00A84D;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.field {
+	opacity: 1.0;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 20px;
+	border-radius: 2px;
+	transition: 0.2s;
+    box-shadow: 0 5px 8px 0 rgba(39, 38, 38, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.field:active {
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+.field.active {
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+
+.welcome {
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 1.5em;
+	font-family: 'Overlock', cursive;
+
+	color: rgb(228, 86, 93);
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+
+}
+
+.welcome * {
+	float: left;
+}
+
+button {
+   
+    font-family: 'Overlock', cursive;
+    font-size: 1.2em;
+	min-width: 120px;
+	font-weight: bold;
+	background: rgb(63, 63, 63);
+    padding: 10px;
+    color: rgb(251, 247, 253);
+	line-height: 30px;
+	text-align: center;
+	border: 0;
+	transition: 0.3s;
+    border-radius: 8px;
+
+}
+
+button:active, button:disabled {
+	background: rgb(189, 195, 199);
+}
+
+
+
+
+h1 {
+    font-family: 'Overlock', cursive;
+
+	text-align: center;
+	font-size: 35px;
+	color: black
+}
+
+.buttons {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	
+}
